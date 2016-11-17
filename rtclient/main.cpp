@@ -36,6 +36,8 @@ void CmdLineHelp()
 {
     cout << left << setw(7) << "-ip  " << setw(12) << "<ip_address> " << " ... " << "robot ip address." << endl;
     cout << left << setw(7) << "-page" << setw(12) << "<ID>         " << " ... " << "execute the specified motion page." << endl;
+    cout << left << setw(7) << "-walk" << setw(12) << "             " << " ... " << "enable the walking mode." << endl;
+    cout << left << setw(7) << "-rst" << setw(12)  << "             " << " ... " << "put the servos at rest." << endl;
     cout << left << setw(7) << "-exit" << setw(12) << "             " << " ... " << "shutdown the rtserver on the robot." << endl;
     cout << endl;
 }
